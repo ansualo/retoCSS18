@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+.anterior, .posterior{
+    width: 15em;
+    background-color:lightskyblue;
+    border: 0.3em solid blue;
+}
+.anteriortop, .posteriortop{
+    background-image: url(../img/f02.png), url(../img/f03.png);
+    background-repeat: no-repeat;
+    height: 7em;
+}
+.anteriorbottom, .posteriorbottom{
+    background-image: url(../img/f01.png);
+    background-repeat: repeat;
+    height: 1em;
+}
+.principal{
+    border: 0.3em solid red;
+    width: 30em;
+    background-color:lightskyblue;
+    margin: 1em;
+}
+.principaltop{
+    background-image: url(../img/f03.png);
+    height: 5em;
+    display: flex;
+    align-items: center;
+}
+.principalcenter{
+    background-image: url(../img/f02.png); 
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    height: 15em;
+}
+.principalbottom{
+    height: 1em;
+    background-image: url(../img/f01.png);
+}
+
