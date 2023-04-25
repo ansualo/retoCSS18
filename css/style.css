@@ -12,6 +12,7 @@ div{
     width: 15em;
     height: 7.5em; 
     border: 0.3em solid blue;
+    padding: 0.2em;
 }
 
 .principal{
@@ -19,6 +20,7 @@ div{
     height: 20em;
     border: 0.3em solid red;
     margin: 1em;
+    padding: 1em;
 }
 
 
